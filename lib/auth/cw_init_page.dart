@@ -13,7 +13,7 @@ class CwInitPage extends ConsumerWidget {
     final result = ref.watch(testSNP);
     return Scaffold(
       appBar: AppBar(
-        title: Text('title'),
+        title: Text('トップページ'),
       ),
       body: Center(
         child: Column(
@@ -23,36 +23,12 @@ class CwInitPage extends ConsumerWidget {
               'You have pushed the button this many times:',
             ),
             Text(
-              'あうあう',
+              'トップページ',
               style: Theme.of(context).textTheme.headline4,
             ),
           ],
         ),
       ), 
-    );
-  }
-
-  Widget result({required dynamic obj}){
-    return Scaffold(
-        body: Center(
-          child: Text('Result'),
-        )
-    );
-  }
-  
-  Widget loading(){
-    return Scaffold(
-      body: Center(
-        child: Text('Loading...'),
-      )
-    );
-  }
-
-  Widget error(){
-    return Scaffold(
-        body: Center(
-          child: Text('Error'),
-        )
     );
   }
 }

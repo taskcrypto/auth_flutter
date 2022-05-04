@@ -12,7 +12,7 @@ import 'package:flutter_signin_button/button_view.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:fluttericon/font_awesome5_icons.dart';
 import 'package:fluttericon/font_awesome_icons.dart';
-import 'package:ritest/cw_signin_apple.dart';
+import 'package:ritest/auth/cw_signin_apple.dart';
 
 import 'cw_signin_twitter.dart';
 
